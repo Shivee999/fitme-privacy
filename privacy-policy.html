@@ -13,12 +13,12 @@
 </head>
 <body>
 <h1>FITme Privacy Policy</h1>
-<p class="updated">Effective date: September 4, 2026</p>
+<p class="updated">Effective date: October 15, 2026</p>
 
-<p>FITme ("the app") is built privacy-first. The short version: <strong>your data never leaves your device.</strong></p>
+<p>FITme ("the app") is built privacy-first. Nearly everything stays on your device — the one exception, the Health Chat feature, is explained below.</p>
 
 <h2>Data We Collect</h2>
-<p><strong>None.</strong> FITme has no user accounts, no servers, no analytics, no advertising, and no third-party SDKs. We do not collect, transmit, sell, or share any personal information.</p>
+<p>FITme has no user accounts, no analytics, and no advertising. We do not sell or share any personal information. The one thing that does leave your device is described under "Health Chat" below: the text of a question you type there, and any text our on-device scanner reads from a photo you attach there, which is sent to our server and then to Anthropic's Claude AI service solely to generate a reply.</p>
 
 <h2>Data Stored on Your Device</h2>
 <p>Workouts, meals, water intake, body measurements, and your profile settings are stored locally on your device using Apple's SwiftData framework. This data stays on your device (and in your personal device backups, which you control). Deleting the app deletes this data.</p>
@@ -32,7 +32,12 @@
 <p>Health data is accessed only on your device, is never transmitted anywhere, and is never used for marketing or shared with any third party. You can revoke access at any time in Settings → Privacy &amp; Security → Health.</p>
 
 <h2>On-Device AI</h2>
-<p>AI features (coaching tips, workout suggestions, nutrition estimates) run entirely on your device using Apple's on-device foundation models. Your prompts and data are not sent to any external AI service.</p>
+<p>Most AI features — daily coaching tips, AI workout suggestions, AI nutrition estimates, and lab report summaries — run entirely on your device using Apple's on-device foundation models. Your prompts and data for these features are not sent to any external AI service.</p>
+
+<h2>Health Chat (uses Claude, an external AI service)</h2>
+<p>The one exception is the "Health Chat" feature (the free-form question box and the floating chat button). The question you type, and any text FITme's on-device scanner reads from a photo you attach, is sent to our backend server and from there to Anthropic's Claude AI service to generate a reply. This is the only place in FITme where typed questions or scanned text leave your device.</p>
+<p>The first time you open Health Chat, FITme shows a consent screen that explains exactly this before anything is sent, and asks you to choose "Allow" or "Not now" — nothing is sent to our server or Claude unless you tap "Allow". You can turn Health Chat off again at any time in Settings, which has the same effect as not having allowed it: the consent screen appears again the next time you open it. Every reply is clearly AI-generated, not written by a doctor, and is not medical advice — see "Medical Information Disclaimer" below.</p>
+<p>We do not attach your name, account, or any other identifying information to these messages — FITme has no accounts. Anthropic processes this content to generate the reply according to <a href="https://www.anthropic.com/legal/privacy">Anthropic's own privacy policy</a>; as of this writing, Anthropic does not use API content to train its models. Your workouts, meals, water, weight, and saved reports are never included in a Health Chat message unless you type or scan them yourself in that conversation.</p>
 
 <h2>Photos</h2>
 <p>The Med Scanner feature lets you pick a photo of a medicine label. The photo is analyzed on your device using Apple's Vision framework and is never uploaded or stored by the app.</p>
@@ -41,7 +46,7 @@
 <p>FITme provides general wellness and educational information, including information about traditional Ayurvedic practices. It does not provide medical advice, diagnosis, or treatment, and is not a substitute for consultation with a qualified healthcare professional. Never stop or change prescribed medication based on information in the app.</p>
 
 <h2>Children</h2>
-<p>FITme is not directed at children under 13 and does not knowingly collect any information from anyone (it collects no information at all).</p>
+<p>FITme is not directed at children under 13 and does not knowingly collect information from anyone under that age.</p>
 
 <h2>Changes</h2>
 <p>If this policy changes, the updated version will be posted at this URL with a new effective date.</p>
